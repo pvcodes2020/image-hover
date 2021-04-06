@@ -1,0 +1,26 @@
+body {
+  /*to center contents */
+  max-width: 300px;
+  margin: auto;
+}
+.main_div {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+.main_div:hover {
+  background-blend-mode: multiply;
+  background-color: rgb(161, 109, 38);
+}
+h3 {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color:white;
+}
